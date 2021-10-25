@@ -13,4 +13,7 @@ let userInput=("")
 
 alert("Here are your choices!"+ '\n' + randomDestination +'\n' + randomRestuarant + '\n' + randomTransportation + '\n' + randomEntertainment)
 
-prompt("Are you satisfied with the choices? Yes or No?", userInput)
+userInput = prompt("Are you satisfied with the choices? Yes or No?")
+if(userInput == 'Yes' || userInput == 'YES' || userInput == 'yes'){
+    alert("Your final choices are!" + '\n' + randomDestination + '\n' + randomRestuarant + '\n' + randomTransportation + '\n' +randomEntertainment)
+}
