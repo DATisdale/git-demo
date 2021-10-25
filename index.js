@@ -6,7 +6,7 @@ let trasnportation = ['Trolley', 'Taxi', 'Uber', 'Rental Car', 'Yatch', 'Helicop
 let entertainment = [ 'Kriss Kross Concert', 'Juggling', 'Painting', 'Mini Golfing', 'Bowling', 'Zoo', 'A Play', 'A Musical']
 
 let randomDestination = anotherDestination(destinations)
-let randomRestaurant =('Big Brutus')
+let randomRestaurant = anotherRestaurant(restaurants)
 let randomTransportation =('Bike')
 let randomEntertainment =('Juggling')
 let userInput=("no")
@@ -28,9 +28,11 @@ numberPrompt = prompt("What option would you like to change? \n Press 1 for Dest
 
 if(numberPrompt == 1)
 randomDestination = anotherDestination(destinations)
+else if(numberPrompt==2)
+randomRestaurant = anotherRestaurant(restaurants)
+
+
 }
-
-
 }
 
 function anotherDestination (destinations) {
