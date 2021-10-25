@@ -1,6 +1,6 @@
 "use strict"
 
-let destinations = ['NewYork', 'Las Vegas', 'Charlotte', 'Virgina Beach', 'Nashville', 'Charleston', 'Woodbidge', 'Atlanta']
+let destinations = ['New York', 'Las Vegas', 'Charlotte', 'Virgina Beach', 'Nashville', 'Charleston', 'Woodbidge', 'Atlanta']
 let restaurants = ['Big Brutus', 'Steak & Shake', 'Olive Garden', 'Tacos & Brunch', 'KickBackJacks', 'Tuesdays', 'Burger Work', 'Munchies']
 let transportation = ['Trolley', 'Taxi', 'Uber', 'Rental Car', 'Yatch', 'Helicopter', 'Skateboard', 'Bike']
 let entertainment = [ 'Kriss Kross Concert', 'Juggling', 'Painting', 'Mini Golfing', 'Bowling', 'Zoo', 'A Play', 'A Musical']
